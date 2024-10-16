@@ -2,18 +2,16 @@ body {
    font-family: Arial, sans-serif;
    text-align: center;
    padding-top: 30px;
-   background-color: #807878;
+   background-color: #797880;
    display: flex;
-   justify-content: center; /* Horizontally center the content */
-   align-items: center; /* Vertically center the content */
-   height: 100vh; /* Make the body take up the full viewport height */
-   margin: 0; /* Remove default margin to ensure full screen coverage */
+   justify-content: center; 
+   align-items: center; 
+   height: 100vh; 
+   margin: 0; 
  }
- 
  .buttons {
    padding: 20px;
-   background-color: #333;
-   border-radius: 35px;
+   background-color: #0f1517;
    width: 80%;
    max-width: 400px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
@@ -68,7 +66,7 @@ body {
    color: white;
  }
  
- button#blue:hover {
-   background-color: #0ea1e6;
+ button#yellow:hover {
+   background-color: #fbd919;
  }
  
