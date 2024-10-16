@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Traffic Light Controller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="buttons">
+    <h1>Traffic Light Controller</h1>
+
+    <p id="redStatus">RED LED STATUS</p>
+    <button id="red" onclick="LED_RED()">RED</button>
+    
+    <p id="yellowStatus">YELLOW LED STATUS</p>
+    <button id="yellow" onclick="LED_YELLOW()">YELLOW</button>
+
+    <p id="greenStatus">GREEN LED STATUS</p>
+    <button id="green" onclick="LED_GREEN()">GREEN</button>
+
+    <p id="offbutton"> OFF BUTTON</p>
+    <button id="off" onclick="OFF()">OFF</button>
+
+    
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>

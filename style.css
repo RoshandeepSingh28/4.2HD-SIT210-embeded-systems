@@ -1,0 +1,74 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   padding-top: 30px;
+   background-color: #807878;
+   display: flex;
+   justify-content: center; /* Horizontally center the content */
+   align-items: center; /* Vertically center the content */
+   height: 100vh; /* Make the body take up the full viewport height */
+   margin: 0; /* Remove default margin to ensure full screen coverage */
+ }
+ 
+ .buttons {
+   padding: 20px;
+   background-color: #333;
+   border-radius: 35px;
+   width: 80%;
+   max-width: 400px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+ }
+ 
+ p {
+   padding-top: 20px;
+   font-size: 18px;
+   line-height: 1.5;
+   margin-bottom: 15px;
+   color: #ffffff;
+ }
+ 
+ h1 {
+   color: #ffffff;
+   font-size: 36px;
+   margin: 20px 0;
+ }
+ 
+ button {
+   font-size: 20px;
+   padding: 10px 20px;
+   margin: 10px;
+   margin-bottom: 15px;
+   cursor: pointer;
+   border-radius: 15px;
+   border: none;
+   width: 120px;
+   transition: background-color 0.3s ease;
+ }
+ 
+ button#red {
+   background-color: rgb(182, 30, 30);
+   color: white;
+ }
+ 
+ button#red:hover {
+   background-color: #ff0000;
+ }
+ 
+ button#green {
+   background-color: green;
+   color: white;
+ }
+ 
+ button#green:hover {
+   background-color: #4bcc23;
+ }
+ 
+ button#yellow {
+   background-color: rgb(210, 231, 14);
+   color: white;
+ }
+ 
+ button#blue:hover {
+   background-color: #0ea1e6;
+ }
+ 
